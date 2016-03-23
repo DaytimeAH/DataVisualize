@@ -1,0 +1,21 @@
+digraph g { 
+ nodesep=.05;
+ rank=LR;
+ node[shape=record,width=0.1,height=.1];
+ node0[label="<f0>|<f1>a1|<f2>a2|<f3>a3|<f4>a4|<f5>a5|<f6>a6|<f7>a7|",height=.1];
+node[width=.1];
+node17[label="{<n>2|a3|<p>}"];
+node0:f1->node17:n;
+node18[label="{<n>1|a2|<p>}"];
+node17:p->node18:n;
+node19[label="{<n>3|a4|<p>}"];
+node0:f2->node19:n;
+node20[label="{<n>5|a5|<p>}"];
+node0:f3->node20:n;
+node21[label="{<n>4|a4|<p>}"];
+node20:p->node21:n;
+node22[label="{<n>6|a6|<p>}"];
+node0:f4->node22:n;
+node23[label="{<n>7|a7|<p>}"];
+node0:f5->node23:n;
+}

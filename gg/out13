@@ -1,0 +1,13 @@
+digraph G {
+size = "9, 10";
+B -> C [label = "28"];
+B[label = "22"];
+C[label = "wi"];
+D -> E [label = "234"];
+D[label = "''w'\""];
+E[label = "wus"];
+F -> B [label = "28"];
+F[label = "iij"];
+G -> D [label = "22"];
+G[label = "uw"];
+}

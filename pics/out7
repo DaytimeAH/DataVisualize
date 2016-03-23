@@ -1,0 +1,9 @@
+digraph g { 
+ nodesep=.05;
+ rank=LR;
+ node[shape=record,width=0.1,height=.1];
+ node0[label="<f0>|<f1>22|<f2>wi|<f3>''w'\"|<f4>wus|<f5>iij|<f6>uw|",height=.1];
+node[width=.1];
+node16[label="{<n>28|wi|<p>}"];
+node0:f1->node16:n;
+}

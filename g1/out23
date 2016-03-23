@@ -1,0 +1,7 @@
+digraph g { 
+ nodesep=.05;
+ rank=LR;
+ node[shape=record,width=1.0,height=1.0];
+ node0[label="<f0>28|<f1>28|<f2>22|<f3>234|<f4>35|<f5>|",height=.5];
+node1[label="<g0>|<g1>|<g2>13|<g3>|<g4>35|<g5>|",height=.5];
+}
